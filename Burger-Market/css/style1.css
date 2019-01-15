@@ -1,0 +1,351 @@
+/*------------------
+  Menu
+---------------------*/
+.header-section {
+	clear: both;
+}
+
+.header-top {
+	background: #e7480f;
+	overflow: hidden;
+	padding: 18px 0;
+}
+
+.user-panel {
+	float: right;
+	color: black;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.user-panel a {
+	color: black;
+    font-size: 15px;
+    font-family: 'Holtwood One SC', sans-serif;
+}
+
+.header-bottom {
+	padding: 10px 0;
+	position: relative;
+}
+
+.text-logo
+{
+    font-family: 'Holtwood One SC', sans-serif;
+    color: #e7480f;
+    text-shadow: 2px 2px #000000;
+    font-size: 50px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.text-logo .glyphicon 
+{
+    color: #000000;
+    text-shadow: 0px 0px #000000;
+}
+
+.main-menu,
+.footer-menu {
+	list-style: none;
+	text-align: center;
+}
+
+.main-menu li,
+.footer-menu li {
+	display: inline;
+}
+
+.main-menu li a,
+.footer-menu li a {
+	display: inline-block;
+	font-size: 25px;
+    color: #474747;
+	padding: 15px 25px;
+    font-family: 'Holtwood One SC', sans-serif;
+
+}
+
+.main-menu li a:hover,
+.footer-menu li a:hover {
+	color: #e7480f;
+}
+/*------------------
+  Menu Fin
+---------------------*/
+
+/*------------------
+  Image En-tête
+---------------------*/
+
+.hero-section {
+	clear: both;
+    margin-bottom: 30px;
+}
+
+.hero-slide-item {
+	height: 694px;
+	display: table;
+	width: 100%;
+	overflow: hidden;
+}
+
+.hs-text {
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+    font-family: 'Holtwood One SC', sans-serif;
+
+}
+
+.hs-title-1,
+.hs-title-2,
+.hs-title-3 {
+	font-weight: 700;
+	color: #fff;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.hs-title-1 span,
+.hs-title-2 span,
+.hs-title-3 span {
+	display: inline-block;
+	border-radius: 5px;
+	position: relative;
+	-webkit-box-shadow: -1px -5px 20px 0px rgba(0, 0, 0, 0.3);
+	        box-shadow: -1px -5px 20px 0px rgba(0, 0, 0, 0.3);
+	opacity: 0;
+}
+
+.hs-title-1 {
+	font-size: 72px;
+	z-index: 3;
+}
+
+.hs-title-1 span {
+	padding: 10px 30px;
+	background: red;
+	-webkit-transform: rotate(4deg);
+	    -ms-transform: rotate(4deg);
+	        transform: rotate(4deg);
+}
+
+.hs-title-2 {
+	font-size: 48px;
+	z-index: 4;
+}
+
+.hs-title-2 span {
+	padding: 5px 28px;
+	background: green;
+	-webkit-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	        transform: rotate(0deg);
+	left: 0;
+	top: 0;
+}
+
+.hs-title-3 {
+	font-size: 36px;
+	z-index: 5;
+}
+
+.hs-title-3 span {
+	padding: 10px 28px;
+	background: blue;
+	-webkit-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	        transform: rotate(0deg);
+	top: 0;
+}
+
+.owl-item.active .hero-slide-item .hs-title-1 span,
+.owl-item.active .hero-slide-item .hs-title-2 span,
+.owl-item.active .hero-slide-item .hs-title-3 span {
+	opacity: 1;
+}
+
+.owl-item.active .hero-slide-item .hs-title-1 span {
+	-webkit-transform: rotate(0);
+	    -ms-transform: rotate(0);
+	        transform: rotate(0);
+	-webkit-transition: all 0.4s ease 0.6s;
+	-o-transition: all 0.4s ease 0.6s;
+	transition: all 0.4s ease 0.6s;
+}
+
+.owl-item.active .hero-slide-item .hs-title-2 span {
+	-webkit-transform: rotate(-6deg);
+	    -ms-transform: rotate(-6deg);
+	        transform: rotate(-6deg);
+	left: 120px;
+	top: -15px;
+	-webkit-transition: all 0.4s ease 0.8s;
+	-o-transition: all 0.4s ease 0.8s;
+	transition: all 0.4s ease 0.8s;
+}
+
+.owl-item.active .hero-slide-item .hs-title-3 span {
+	-webkit-transform: rotate(3deg);
+	    -ms-transform: rotate(3deg);
+	        transform: rotate(3deg);
+	top: -15px;
+	-webkit-transition: all 0.4s ease 1s;
+	-o-transition: all 0.4s ease 1s;
+	transition: all 0.4s ease 1s;
+}
+
+.hero-slider .owl-next {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: 2px solid orange;
+	color: #fe8b6b;
+	border-radius: 50%;
+	right: 110px;
+	top: calc(50% - 20px);
+	text-align: center;
+	font-size: 24px;
+}
+/*------------------
+  Image En-tête Fin
+---------------------*/
+
+
+/*------------------
+  A propos
+---------------------*/
+.about-text h1 {
+	font-size: 40px;
+	margin-bottom: 30px;
+    font-family: 'Holtwood One SC', sans-serif;
+}
+
+.about-text p {
+    font-size: 20px;
+    font-weight: 500;
+	margin-bottom: 50px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+.about-img img {
+    margin-bottom: 30px;
+    float:right;
+} 
+/*------------------
+  A propos Fin
+---------------------*/
+
+
+/*------------------
+  Contact & Map Pages
+---------------------*/
+#contplan{
+    background: #222;
+    background: url(../img/bg.jpg) 50% 0 no-repeat scroll;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+            background-size: cover;
+         -o-background-size: cover;
+  letter-spacing: 2px;
+  }
+
+#contplan a{
+  color: #fff;
+  text-decoration: none;
+      
+}
+
+
+@media (max-width: 575.98px) {
+
+  #contplan{padding-bottom: 800px;}
+  #contplan .maps iframe{
+    width: 100%;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contplan{padding-bottom: 800px;}
+
+   #contplan .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contplan{padding-bottom: 350px;}
+
+  #contplan .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contplan{padding-bottom: 200px;}
+
+   #contplan .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
+/*------------------
+  Fin Contact & Map Pages
+---------------------*/
+
+/*------------------
+  Footer Section
+---------------------*/
+
+.footer-section {
+	padding: 5px 5px 10px;
+}
+
+.footer-menu {
+	float: none;
+	margin-right: 0;
+}
+
+.footer-menu li a {
+	padding: 5px 5px;
+}
+
+.footer-menu li:last-child a {
+	padding-right: 0;
+}
+
+.copyright {
+	margin-bottom: 0;
+	padding-top: 5px;
+}
+
+
+
+/*------------------
+  Container
+---------------------*/
+
+.recipes-section .container {
+	margin-bottom: -30px;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1176px;
+	}
+}
+
+.facts-section .container {
+    margin-bottom: -40px;
+	}
+
+.facts-section .container {
+   margin-bottom: -40px;
+	}
+}
